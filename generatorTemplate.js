@@ -23,4 +23,4 @@
     }
   }
   return generatorObj
-})(window)
+}(window))
