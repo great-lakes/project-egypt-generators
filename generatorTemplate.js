@@ -8,8 +8,6 @@
  * }
  */
 
-console.log('outside generator function - before');
-
 (function (window) {
   console.log('inside generator function');
   const generatorObj = {
@@ -26,5 +24,3 @@ console.log('outside generator function - before');
   }
   return generatorObj
 })(window)
-
-console.log('outside generator function - after');
