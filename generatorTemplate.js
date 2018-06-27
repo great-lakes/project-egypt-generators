@@ -22,5 +22,5 @@
       return 1
     }
   }
-  testandAppend(generatorObj); //DO NOT DELETE THIS LINE
+  testAndAppend(generatorObj); //DO NOT DELETE THIS LINE
 })(window)
