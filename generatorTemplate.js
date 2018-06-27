@@ -22,5 +22,5 @@
       return 1
     }
   }
-  return generatorObj
+  globalGenerators.push(generatorObj); //test line
 })(window)
