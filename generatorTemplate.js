@@ -24,3 +24,5 @@
   }
   return generatorObj
 })(window)
+
+console.log('outside generator function');
