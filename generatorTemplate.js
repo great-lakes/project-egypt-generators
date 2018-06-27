@@ -13,7 +13,6 @@
     name: '',
     description: '',
     image: '',
-    path: '',
     generatorFunction: ({generatorParameters}) => ({functionParameters}) => {}
   };
 
