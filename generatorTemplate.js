@@ -17,5 +17,5 @@
     generatorFunction: ({generatorParameters}) => ({functionParameters}) => {}
   };
 
-  testAndAppend(generatorObj); //DO NOT DELETE THIS LINE
+  testAndAppend(generatorObj); //DO NOT DELETE OR MODIFY THIS LINE
 })(window)
