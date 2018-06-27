@@ -9,18 +9,13 @@
  */
 
 (function (window) {
-  console.log('inside generator function');
   const generatorObj = {
-    name: 'Sine Wave Generate',
-    description: 'Sine Wave Generator outputs the value in a sine wave pattern given the timestamp',
+    name: '',
+    description: '',
     image: '',
-    generatorFunction: (minAmp, maxAmp, period) => (timestamp) => {
-      // convert timestamp into ms, int value
-      // (timestamp_int % (pi * 2)) - pi
-      // -pi < result < pi
+    path: '',
+    generatorFunction: ({generatorParameters}) => ({functionParameters}) => {}
+  };
 
-      return 1
-    }
-  }
   testAndAppend(generatorObj); //DO NOT DELETE THIS LINE
 })(window)
