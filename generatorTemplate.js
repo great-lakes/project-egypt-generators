@@ -22,5 +22,5 @@
       return 1
     }
   }
-  globalGenerators.push(generatorObj); //test line
+  testandAppend(generatorObj); //DO NOT DELETE THIS LINE
 })(window)
