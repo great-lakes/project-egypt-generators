@@ -9,7 +9,7 @@
  */
 
 (function (window) {
-  window.console.log('inside generator function');
+  console.log('inside generator function');
   const generatorObj = {
     name: 'Sine Wave Generate',
     description: 'Sine Wave Generator outputs the value in a sine wave pattern given the timestamp',
