@@ -20,5 +20,6 @@ var g = require('g.js');
       return g.sineWave(timestamp, minAmp, maxAmp, period)
     }
   }
-  testAndAppend(generatorObj) // DO NOT DELETE THIS LINE
+  
+  __testAndAppend__(generatorObj); //DO NOT DELETE THIS LINE
 })(window)

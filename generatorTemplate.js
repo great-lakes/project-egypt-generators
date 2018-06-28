@@ -17,5 +17,5 @@
     functionArgs: ['Paramater argument names; array of string'],
     generatorFunction: (functionParamters) => (timestamp) => {}
   }
-  testAndAppend(generatorObj); // DO NOT DELETE THIS LINE
+  __testAndAppend__(generatorObj); //DO NOT DELETE OR MODIFY THIS LINE
 })(window)
