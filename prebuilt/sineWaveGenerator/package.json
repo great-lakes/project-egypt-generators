@@ -1,0 +1,19 @@
+{
+  "name": "sinewavegenerator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sineGenerator.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.12.2",
+    "webpack-cli": "^3.0.8"
+  },
+  "dependencies": {
+    "g.js": "^0.1.14"
+  }
+}
