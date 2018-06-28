@@ -7,18 +7,17 @@
  *   function definition
  * }
  */
+var g = require('g.js');
 
 (function (window) {
   const generatorObj = {
     name: 'Sine Wave Generate',
     description: 'Sine Wave Generator outputs the value in a sine wave pattern given the timestamp',
     image: '',
+    functionName: 'sine',
+    functionArgs: ['min', 'max','period'],
     generatorFunction: (minAmp, maxAmp, period) => (timestamp) => {
-      // convert timestamp into ms, int value
-      // (timestamp_int % (pi * 2)) - pi
-      // -pi < result < pi
-
-      return 1
+      return g.sineWave(timestamp, minAmp, maxAmp, period)
     }
   }
   
