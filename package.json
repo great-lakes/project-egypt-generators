@@ -4,11 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/great-lakes/project-egypt-generators.git"
+  },
+  "standard": {
+    "ignore": [
+      "generatorTemplate.js"
+    ]
   },
   "keywords": [],
   "author": "",
@@ -17,5 +22,8 @@
     "url": "https://github.com/great-lakes/project-egypt-generators/issues"
   },
   "homepage": "https://github.com/great-lakes/project-egypt-generators#readme",
-
+  "dependencies": {
+    "g.js": "^0.1.14",
+    "npm": "^6.3.0"
+  }
 }
