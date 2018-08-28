@@ -24,8 +24,6 @@
   "homepage": "https://github.com/great-lakes/project-egypt-generators#readme",
   "dependencies": {
     "g.js": "^0.1.14",
-    "npm": "^6.3.0",
-    "yarn": "^1.9.4"
   },
   "devDependencies": {
     "canvas": "^1.6.11",
