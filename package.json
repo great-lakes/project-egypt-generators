@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/great-lakes/project-egypt-generators#readme",
   "dependencies": {
-    "g.js": "^0.1.14",
+    "g.js": "^0.1.14"
   },
   "devDependencies": {
     "canvas": "^1.6.11",
