@@ -1,0 +1,17 @@
+language: node_js
+
+node_js: "lts/*"
+
+# needed for test to pass; this will allow the VM to properly download canvas
+before_install: sudo apt-get install libcairo2-dev libjpeg8-dev libpango1.0-dev libgif-dev build-essential g++
+
+cache: yarn
+
+stages:
+  - test
+
+jobs:
+  include:
+    - stage: test
+      script:
+        - yarn test
